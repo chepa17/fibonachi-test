@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fibonachi-test/static/css/main.766158a3.chunk.css",
+    "main.js": "/fibonachi-test/static/js/main.b0e56b72.chunk.js",
+    "main.js.map": "/fibonachi-test/static/js/main.b0e56b72.chunk.js.map",
+    "runtime-main.js": "/fibonachi-test/static/js/runtime-main.7f978050.js",
+    "runtime-main.js.map": "/fibonachi-test/static/js/runtime-main.7f978050.js.map",
+    "static/js/2.9cfcdde5.chunk.js": "/fibonachi-test/static/js/2.9cfcdde5.chunk.js",
+    "static/js/2.9cfcdde5.chunk.js.map": "/fibonachi-test/static/js/2.9cfcdde5.chunk.js.map",
+    "static/js/3.a74a4341.chunk.js": "/fibonachi-test/static/js/3.a74a4341.chunk.js",
+    "static/js/3.a74a4341.chunk.js.map": "/fibonachi-test/static/js/3.a74a4341.chunk.js.map",
+    "index.html": "/fibonachi-test/index.html",
+    "static/css/main.766158a3.chunk.css.map": "/fibonachi-test/static/css/main.766158a3.chunk.css.map",
+    "static/js/2.9cfcdde5.chunk.js.LICENSE.txt": "/fibonachi-test/static/js/2.9cfcdde5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f978050.js",
+    "static/js/2.9cfcdde5.chunk.js",
+    "static/css/main.766158a3.chunk.css",
+    "static/js/main.b0e56b72.chunk.js"
+  ]
+}
