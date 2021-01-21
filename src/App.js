@@ -1,40 +1,29 @@
-
 import './App.css';
-import Dropdown from './components/dropdown/dropdown';
-import {useState, useEffect} from 'react';
+
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Navbar from './components/navbar/navbar';
+import Fibonachi from './components/fibonachi/fibonachi';
+import Toogle from './components/toogle/toogle';
 
 function App() {
-  const [currentNumber, setNumber] = useState(0);
-  const [fibonachiList, setFibonachiList] = useState([]);
-  const onChange = (number) => {
-    setNumber(number)
-  };
-  const fibonachi = (n) => {
-    if (n === 0) {
-      return '0'
-    }
-    if (n === 1) {
-      return '0 1'
-    }
-    const result = [0,1];
-    let a = 0;
-    let b = 1;
-    for (let i = 2; i<=n; i++) {
-      result.push(a+b);
-      b = a + b;
-      a = b - a; 
-    }
-    return result.join(' ');
-  }
-
-  useEffect(()=>{
-    setFibonachiList(fibonachi(currentNumber))
-  }, [currentNumber]);
+  
   return (
-    <div className="App">
-      <Dropdown currentNumber onChange={onChange}/>
-      <div className='result'>{fibonachiList}</div>
-    </div>
+    <Router>
+      <div className='App'>
+        <Navbar />
+        <div className='content'>
+          <Switch>
+            <Route exact path='/'>
+              <Fibonachi />
+            </Route>
+            <Route path='/toogle'>
+              <Toogle/>
+            </Route>
+          </Switch>
+        </div>
+      </div>
+    </Router>
+    
   );
 }
 

@@ -1,0 +1,7 @@
+.toogle {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-color: gray;
+    padding: 5px;
+  }
